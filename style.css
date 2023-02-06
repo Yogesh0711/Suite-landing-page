@@ -1,0 +1,361 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+body{
+/*   padding:10px 10px 20px 10px;
+  margin-left:20px; */
+}
+  #outer{
+  border:1px solid black;
+  margin:5px 0px 20px 0px;
+}
+  .beta{
+    border:1px solid black;
+    color:white;
+    background:black;
+    border-radius:6px;
+}
+  .col{
+    color:grey;
+  }
+.request1{
+  background-color:white;
+  color:black;
+}
+  #jermy-box{
+    border:1px solid #192337;
+    background-color:#192337;
+    border-radius:20px;
+  }
+  .work,.work2{
+    color: white; 
+  }
+  #jer{
+    color: white;
+  }
+  #fyl{
+    color: #a1a7b3; 
+  }
+  #our{
+   color:grey;
+  }
+/*for mobile phones*/
+@media screen and (min-width:320px) and (max-width:430px){
+  #outer{
+    width:360px;
+    margin:20px auto;
+  }
+  .logo{
+    height:20px;
+    width:50px;
+    margin:0px 0px 0px 7px;
+  }
+  .beta{
+    height:22px;
+    width:99px;
+    margin-top:-42px;
+    margin-left:260px;
+    font-size:7px;
+  }
+  .request1{
+    margin-left:235px;
+  }
+  #curve1{
+    height:18px;
+    width:130px;
+    margin-left:170px;
+  }
+   #sol{
+      margin-left:15px;
+      font-size:25px;
+    }
+  #reques{
+    margin:10px 0px 0px 20px;
+  }
+  #our{
+    color:grey;
+    margin-left:15px;
+  }
+  #phone{
+    width:90%;
+    margin:10px 0px 0px 18px;
+  }
+  #k2{
+    text-align:center;
+  }
+  
+  #jermy-box{
+    width:300px;
+    height:500px;
+    border:1px solid #192337;
+    background-color:#192337;
+    border-radius:20px;
+    margin:160px 0px 10px 37px;
+  }
+  #jeremy{
+    positon:absolute;
+    top:10px;
+  }
+  #jeremy-pic{
+    height:250px;
+    width:160px;
+    position:absolute;
+    top:985px;
+    left:122px;
+  }
+  #cur2{
+    margin:175px 0px 0px 110px
+  }
+  .work{
+   
+    font-size: 30px;
+    margin-left: 65px;
+  }
+  .work2{
+   
+    font-size: 12px;
+    margin-left: 40px;
+    line-height:1;
+    padding-right: 22px;
+
+  }
+  #jer{
+   
+    margin-top:-15px;
+    margin-left:70px;
+  }
+  #fyl{
+   
+    font-size: 10px;
+    margin-left: 108px;
+    letter-spacing:2.7px;
+  }
+}
+/*For tabs*/
+@media screen and (min-width:420px) and (max-width:768px){
+  body{
+    padding:10px 10px 10px 10px;
+  }
+  #outer{
+    width:670px;
+    margin:20px auto;
+/*     margin:10px 25px 20px 0px; */
+  }
+  .logo{
+    height: 26px;
+    width: 83px;
+    margin-left:46px;
+  }
+  .beta{
+    height:24px;
+    width:103px;
+    position:absolute;
+    right:80px;
+    height: 28px;
+    width: 151px;
+    font-size:11px;
+  }
+/*   .req{
+        margin-top: 7px;
+  } */
+  #phone{
+    height: 375px;
+    width: 278px;
+    position:relative;
+    top:92px;
+    right:-350px;
+    z-index:-1;
+  }
+  #curve1{
+    width: 257px;
+    height: 31px;
+    position:absolute;
+    top:187px;
+    left:154px;
+  }
+  #sol{
+    font-size:40px;
+    margin-top:156px;
+    margin-left:52px;
+    letter-spacing:2px;
+    position:absolute;
+  }
+  #our{
+   color:grey;
+    font-size:20px;
+    position:absolute;
+    top:362px;
+    left:63px;
+  }
+  #reques{
+    top:491px;
+    left:61px;
+  }
+  #k2{
+    margin-top:117px;
+    text-align:center;
+  }
+  h1{
+    font-size:43px;
+    posiion:absolute;
+  }h5{
+    font-size:20px
+  }
+  #jermy-box{
+    width:588px;
+    height:680px;
+    margin:276px 0px 10px 37px;
+  }
+  #jeremy{
+    positon:absolute;
+    top:10px;
+  }
+  #jeremy-pic{
+    height:371px;
+    width:247px;
+    position:absolute;
+    top:1050px;
+    left:233px;
+  }
+  #cur2{
+    height:76px;
+    margin:201px 0px 0px 240px
+  }
+  .work{
+    font-size:34px;
+    margin-left:204px;
+  }
+  .work2{
+    letter-spacing:1.5px;
+    font-size:20px;
+    margin-left:72px;
+    line-height:1.5;
+    padding:3px 57px 3px 3px;
+  }
+  #jer{
+    letter-spacing:1.2px;
+    font-size:22px;
+    margin-left:160px;
+  }
+  #fyl{
+   margin-left:212px;
+   letter-spacing:1.5px;
+   font-size:20px;
+  }
+}
+@media screen and (min-width:770px) {
+  #outer{
+  margin:10px auto;
+  width:1800px;
+  } 
+  .logo{
+    height:30px;
+    width:85px;
+    margin-left:50px;
+  }
+  .beta{
+    height:40px;
+    width:210px;
+    font-size:19px;
+  }
+  .request1{
+    margin-left:1500px;
+    color:white;
+    background-color:black;
+  }
+  #phone{
+    position:relative;
+    left:650px;
+    z-index:-1;
+    height:570px;
+    width:390px;
+  }
+  #curve1{
+    position:absolute;
+    left:590px;
+    top:140px;
+  }
+  #sol{
+    position:absolute;
+    left:230px;
+    font-size:50px;
+    letter-spacing:4px;
+     top:160px;
+  }
+  #our{
+    position:absolute;
+    font-size:30px;
+    top:325px;
+    left:230px;
+    letter-spacing:2.5px;
+  }
+  #reques{
+    position:absolute;
+    left: 230px;
+    top: 485px;
+    background: linear-gradient(218deg, rgba(222,222,61,1) 0%, rgba(185,47,176,1) 100%);
+    border:none;
+
+  }
+  #k2{
+    position:absolute;
+    top:180px;
+    right:400px;
+    line-height:30px;
+  }
+  h1{
+    font-size:40px;
+    letter-spacing:5px;
+  }
+  h5{
+    font-size:30px;
+    letter-spacing:1.8px;
+  }
+  #jermy-box{
+    height:600px;
+    width:1300px;
+    margin:100px auto;
+  }
+  #jeremy{
+    margin-left:90px;
+    margin-top:-69px;
+    float:left;
+  }
+  #jeremy-pic{
+   height:670px;
+    width:390px;
+  }
+  #cur2{
+    margin: 95px 0px 0px 0px;
+  }
+  .work{
+    font-size:38px;
+    position:absolute;
+    margin-top:-50px;
+    letter-spacing:2.5px;
+    margin-left:20px;
+    left:900px;
+  }
+  .work2{
+    position:absolute; 
+    left:900px;
+    padding:5px 325px 5px 5px;
+    margin-top:30px;
+    line-height:2;
+  }
+  #jer{
+    position:absolute;
+    margin-top:30px;
+    top: 1050px;
+    left: 900px;
+    font-size:30px;
+
+  }
+  #fyl{
+   position:absolute;
+   left:900px;
+   top: 1120px;
+   font-size:20px;
+  }
+}
